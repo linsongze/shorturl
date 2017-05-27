@@ -6,11 +6,7 @@ import java.util.Stack;
  * Created by lsz on 2017/4/24.
  */
 public class ShortUtils {
-    public static void main(String[] args) {
-        System.out.println(36526445);
-        System.out.println(_10_to_62(36526445));
-        System.out.println(_62_to_10(_10_to_62(36526445)));
-    }
+
 
     public static final char[] array = {'q', 'w', 'e', 'r', 't', 'y', 'u', 'i', 'o', 'p', 'a', 's', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'z', 'x', 'c', 'v', 'b', 'n', 'm', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'Q', 'W', 'E', 'R', 'T', 'Y', 'U', 'I', 'O', 'P', 'A', 'S', 'D', 'F', 'G', 'H', 'J', 'K', 'L', 'Z', 'X', 'C', 'V', 'B', 'N', 'M'};
 
